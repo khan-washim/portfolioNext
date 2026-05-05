@@ -1,8 +1,7 @@
 import connectDB from '../lib/mongodb.js';
 import mongoose from 'mongoose';
 
-const MONGODB_URI = 'mongodb+srv://washimuddin760:washim1976@cluster0.1czcs.mongodb.net/nextPortfolio?retryWrites=true&w=majority';
-
+process.env.MONGODB_URI
 const ProjectSchema = new mongoose.Schema({
   title: String,
   description: String,
