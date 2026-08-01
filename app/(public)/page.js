@@ -100,7 +100,7 @@ export default async function HomePage() {
             style={{ fontFamily: 'Space Grotesk, sans-serif', animationDelay: '100ms' }}
           >
             <span className="text-white">Hi, I&apos;m </span>
-            <span className="gradient-text">Alex Morgan</span>
+            <span className="gradient-text">Khan Washim Uddin</span>
             <span className="block text-white mt-2">Full Stack</span>
             <span className="gradient-text-cyan">Developer.</span>
           </h1>
@@ -136,7 +136,7 @@ export default async function HomePage() {
               Get In Touch
             </a>
             <a
-              href="/resume.pdf"
+              href="/Khan_Washim_Uddin_Resume_v3.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 px-8 py-3.5 text-slate-400 hover:text-white font-medium transition-colors duration-200"
@@ -333,9 +333,8 @@ export default async function HomePage() {
 
               <div className="space-y-4">
                 {[
-                  { label: 'Email', value: 'alex@example.com', href: 'mailto:alex@example.com' },
-                  { label: 'Twitter / X', value: '@alexmorgan_dev', href: 'https://twitter.com' },
-                  { label: 'LinkedIn', value: 'linkedin.com/in/alexmorgan', href: 'https://linkedin.com' },
+                  { label: 'Email', value: 'washimuddin760@gmail.com', href: 'mailto:washimuddin760@gmail.com' },
+                  { label: 'LinkedIn', value: 'khan-washim-881427316', href: 'https://www.linkedin.com/in/khan-washim-881427316/' },
                 ].map(({ label, value, href }) => (
                   <a
                     key={label}
@@ -353,7 +352,6 @@ export default async function HomePage() {
                 ))}
               </div>
             </div>
-
             {/* Right: contact form */}
             <ContactForm />
           </div>

@@ -55,7 +55,7 @@ export default function Navbar() {
             className="font-bold text-slate-900 dark:text-white tracking-tight hidden sm:block"
             style={{ fontFamily: 'Space Grotesk, sans-serif' }}
           >
-            alex<span className="text-indigo-500 dark:text-indigo-400">.</span>dev
+            washim<span className="text-indigo-500 dark:text-indigo-400">.</span>dev
           </span>
         </Link>
 
